@@ -1,0 +1,177 @@
+body {
+  background-image: url(img/sfondo.jpg);
+  background-size: cover;
+  font-family: "Sarabun", sans-serif;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+
+/* Intestazione */
+h1 {
+  font-family: "Great Vibes", cursive;
+  background-color: #fff;
+  opacity: 0.6;
+  padding: 25px;
+  font-size: 38px;
+}
+
+.nota {
+  margin: 50px 53px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+/* Singoli blocchi  */
+.infosing {
+  border: solid 2px;
+  border-radius: 12px;
+  padding: 5px;
+  width: 18%;
+  height: 456px;
+  margin-left: 11px;
+  background-color: #fff;
+  opacity: 0.7;
+  float: left;
+  text-align: left;
+  line-height: 23px;
+}
+
+.invisibile {
+  display: none;
+}
+
+.contimg {
+  margin-left: 6%;
+  text-align: left;
+}
+
+.contimg img {
+  width: 25vw;
+  height: 20vw;
+  margin-right: 6px;
+  margin-left: 4px;
+  border: solid 1px;
+  float: left;
+}
+
+/* Blocco fronte/retro */
+.fronte,
+.retro {
+  margin-right: 5%;
+  float: right;
+  background-color: #fff;
+  opacity: 0.8;
+  border-radius: 10px;
+  padding-top: 12px;
+}
+
+.fronte {
+  margin-bottom: 16px;
+  width: 31%;
+  height: 55px;
+}
+
+.retro {
+  width: 31%;
+  height: 400px;
+}
+
+#cart1 {
+  margin-top: 42%;
+}
+
+#cart2 {
+  margin-top: 47%;
+}
+/**/
+
+h4 {
+  margin: 18px 21px 14px;
+}
+
+.retro b {
+  float: left;
+  margin-left: 36px;
+}
+
+.testo_cartolina {
+  line-height: 17px;
+  text-align: justify;
+  margin-left: 36px;
+}
+
+.contenuto_dx {
+  margin-left: 162px;
+  margin-top: 17px;
+}
+
+.contenuto {
+  line-height: 7px;
+  margin-top: 16px;
+}
+
+#AD1_93,
+#AD1_168 {
+  margin-top: 35px;
+}
+
+#ST2_93,
+#ST3_93,
+#LI1_168 {
+  font-size: small;
+  text-align: left;
+  margin-left: 28px;
+  font-style: italic;
+}
+
+#LI2_168,
+#LI3_168 {
+  font-size: small;
+  text-align: left;
+  margin-left: 135px;
+  font-style: italic;
+}
+
+.francobolli {
+  margin: 40px 15px 28px -30px;
+  width: 100px;
+  float: left;
+  padding: 4px;
+}
+
+#hr {
+  float: left;
+  width: 367px;
+  margin: 0px -26px 0px 20px;
+}
+
+/* NavMenu*/
+
+body > footer > nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+body > footer > nav > ul > li {
+  float: right;
+}
+
+body > footer > nav > ul > li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body > footer > nav > ul > li > a:hover {
+  background-color: #111;
+}
+
+html{
+    margin-bottom: 60px;
+}
